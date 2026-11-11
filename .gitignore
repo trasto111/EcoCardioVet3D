@@ -1,0 +1,17 @@
+# dependencias y cachés
+tools/node_modules/
+tools/entry_v12.js
+tools/bundle_v12.js
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# salidas intermedias de build.py (las versiones para abrir sí se guardan en dist/)
+dist/test_wrapper.html
+dist/ecocardio3d_v1.2.html
+
+# copias de seguridad de versiones anteriores
+*_v11.py
+*_v11.json
+*_v11.glb
